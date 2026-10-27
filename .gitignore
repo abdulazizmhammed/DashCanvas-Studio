@@ -1,0 +1,24 @@
+# Built binaries and local output
+*.exe
+*.dll
+*.pdb
+*.zip
+dist/
+test-results/
+work/
+bin/
+obj/
+
+# Local preferences, game paths and recovery backups
+data/
+Resources/
+geode/
+_dashcanvas/
+*.user
+.vs/
+.env
+.env.*
+!.env.example
+
+# Published portable download
+!downloads/DashCanvas-Portable.zip
