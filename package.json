@@ -1,0 +1,12 @@
+{
+  "name": "personal-media-hub-render",
+  "version": "2.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  }
+}

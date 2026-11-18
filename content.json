@@ -1,0 +1,46 @@
+[
+  {
+    "id": "mine_bigbuckbunny",
+    "type": "movie",
+    "category": "movies",
+    "name": "Big Buck Bunny | الأرنب الكبير",
+    "description": "Blender open movie (CC BY 3.0), sample playback",
+    "streams": [
+      {
+        "title": "1080p • Blender",
+        "url": "https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4"
+      },
+      {
+        "title": "4K • Blender",
+        "url": "https://download.blender.org/demo/movies/BBB/bbb_sunflower_2160p_30fps_normal.mp4"
+      }
+    ],
+    "subtitles": [
+      {
+        "lang": "ara",
+        "file": "sample-ar.vtt"
+      }
+    ]
+  },
+  {
+    "id": "mine_demo_episodes",
+    "type": "series",
+    "category": "series",
+    "name": "Demo Series | اختبار الحلقات",
+    "description": "Sample series episode (open movie as a technical test)",
+    "episodes": [
+      {
+        "id": "mine_demo_episodes:1:1",
+        "season": 1,
+        "episode": 1,
+        "title": "Episode 1 - Open demo",
+        "streams": [
+          {
+            "title": "1080p",
+            "url": "https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4"
+          }
+        ]
+      }
+    ]
+  }
+]
